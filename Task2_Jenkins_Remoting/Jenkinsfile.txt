@@ -1,0 +1,17 @@
+pipeline {
+    agent {
+        label 'linux-slave-node'
+    }
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Seenu1527/CodeAlpha_DevOps_Tasks.git'
+            }
+        }
+        stage('Build & Test on Remote Node') {
+            steps {
+                sh 'echo "Running build tasks on remote worker node successfully."'
+            }
+        }
+    }
+}

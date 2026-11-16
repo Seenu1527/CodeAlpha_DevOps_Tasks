@@ -1,0 +1,7 @@
+package com.codealpha;
+
+public class App {
+    public static void main(String[] args) {
+        System.out.println("CodeAlpha Gradle Java Automation Project Running Successfully!");
+    }
+}

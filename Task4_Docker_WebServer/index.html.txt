@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeAlpha DevOps Task</title>
+</head>
+<body>
+    <h1>Welcome to CodeAlpha DevOps Docker Web Server Project</h1>
+    <p>Containerized and deployed successfully!</p>
+</body>
+</html>
